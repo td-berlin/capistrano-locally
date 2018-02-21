@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'capistrano/locally/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "capistrano-locally"
+  spec.name          = "td-capistrano-locally"
   spec.version       = Capistrano::Locally::VERSION
   spec.authors       = ["Takuto Komazaki"]
   spec.email         = ["komazarari@gmail.com"]
